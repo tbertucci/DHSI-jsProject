@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 2. Add a tile layer (the base map image)
     // Using OpenStreetMap tiles
-    L.tileLayer("https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}?api_key=1ebda0d1-294b-4605-9c25-d028f6fd279d", {
+    L.tileLayer("https://tiles.stadiamaps.com/tiles/stamen_toner_lite/{z}/{x}/{y}{r}.{ext}?api_key=MY_API_KEY", {
         maxZoom: 6, // Max zoom level for these tiles
         minZoom: 4, // Min zoom level for these tiles
         attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
