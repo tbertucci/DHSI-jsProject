@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // 1. Initialize the map and set its view
     // L.map('map') creates a map instance linked to the div with id="map"
-    const map = L.map('map').setView([44.5, 9.5], 5); // arbitrary centerpoint in Romance-speaking area
+    const map = L.map('map').setView([44, 9.5], 5); // arbitrary centerpoint in Romance-speaking area
 
     // 2. Add a tile layer (the base map image)
     // Using OpenStreetMap tiles

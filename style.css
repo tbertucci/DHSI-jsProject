@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  max-width: 85%;
+  max-width: 90%;
   /* Limit width for readability */
   margin: auto;
   /* Center the container */
@@ -45,7 +45,6 @@ a:hover {
   width: 100%;
   /* Make it fill the container width */
   border: 1px solid #ccc;
-  /* Optional: add a border */
-  margin-top: 10px;
+  margin-top: 5px;
   /* Optional: space above the map */
 }
