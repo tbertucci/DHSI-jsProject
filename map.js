@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', function () {
     // (Inside the DOMContentLoaded listener, after map initialization)
 
     //
-    const markerSize = 28;
-    const markerWeight = 3;
+    const markerSize = 30;
+    const markerWeight = 3.5;
     const markerFillOpacity = 0.6;
 
     // Add a marker (with pop-up) for 01a
