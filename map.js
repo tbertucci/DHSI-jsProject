@@ -157,11 +157,17 @@ document.addEventListener('DOMContentLoaded', function () {
         radius: markerSize, weight: markerWeight, fillOpacity: markerFillOpacity, color: '#e3f1cd'
     }).addTo(map).bindPopup("<b>français québécois</b><br>Québécois French");
 
-    // Add a marker (with pop-up) for 13.5
-    const coord13z = [48.166667, 6.416667];
-    const marker13z = L.circleMarker(coord13z, {
+    // Add a marker (with pop-up) for 13y
+    const coord13y = [48.166667, 6.416667];
+    const marker13y = L.circleMarker(coord13y, {
         radius: markerSize, weight: markerWeight, fillOpacity: markerFillOpacity, color: '#e3f1cd'
     }).addTo(map).bindPopup("<b>lorin & frainc-comtou</b><br>Lorrain & Franc-Comtois");
+
+        // Add a marker (with pop-up) for 13z
+    const coord13z = [48.027686, 4.571562];
+    const marker13z = L.circleMarker(coord13z, {
+        radius: markerSize, weight: markerWeight, fillOpacity: markerFillOpacity, color: '#e3f1cd'
+    }).addTo(map).bindPopup("<b>borguignon-morvandiau</b><br>Bourguignon-Morvandiau");
 
     // Add a marker (with pop-up) for 14
     const coord14 = [46.15, 5.866667];
